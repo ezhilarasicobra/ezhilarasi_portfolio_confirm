@@ -2,6 +2,7 @@ import uniqid from "uniqid";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LaunchIcon from "@material-ui/icons/Launch";
 import "./ProjectContainer.css";
+import { Button } from "@material-ui/core";
 
 
 const ProjectContainer = ({ project }) => (
@@ -31,7 +32,9 @@ const ProjectContainer = ({ project }) => (
         aria-label="source code"
         className="link link--icon"
       >
-        <GitHubIcon />
+        <Button style={{color:"white" ,border:"3px solid white"}}>Fronend 
+        <GitHubIcon style={{paddingLeft:"3px"}}/>
+        </Button>
       </a>
     )}
     {project.sourceCodeNode && (
@@ -41,7 +44,10 @@ const ProjectContainer = ({ project }) => (
         aria-label="source code"
         className="link link--icon"
       >
-        <GitHubIcon />
+        <Button style={{color:"white" ,border:"3px solid white"}}>Backend 
+        <GitHubIcon style={{paddingLeft:"3px"}} />
+        </Button>
+        
       </a>
     )}
 
@@ -52,7 +58,9 @@ const ProjectContainer = ({ project }) => (
         aria-label="live preview"
         className="link link--icon"
       >
-        <LaunchIcon />
+        <Button style={{color:"white" ,border:"3px solid white" ,top:"3px"}}>Live
+        <LaunchIcon style={{paddingLeft:"3px"}}/>
+        </Button>
       </a>
     )}
   </div>
