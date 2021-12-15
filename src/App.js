@@ -12,6 +12,7 @@ import Experience from "./Experience/Experience";
 import "./App.css";
 import Contact from "./components/contact/Contact"
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext);
@@ -28,10 +29,11 @@ const App = () => {
           <Experience />
           <Achieve />
           <Contact />
+          
         </main>
 
         <ScrollToTop />
-
+<Footer/>
       </div>
     </Switch>
   );
