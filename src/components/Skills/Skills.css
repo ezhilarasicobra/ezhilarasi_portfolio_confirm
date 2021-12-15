@@ -4,7 +4,9 @@
 .section__title{
   margin-top: 10px;
 }
-
+.space{
+  margin-bottom: 5px;
+}
 
 
 .skills__list {

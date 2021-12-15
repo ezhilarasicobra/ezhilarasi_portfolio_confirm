@@ -1,5 +1,5 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
-
+import {Button} from '@material-ui/core'
 import { about } from '../../portfolio'
 import './About.css'
 
@@ -8,7 +8,7 @@ const About = () => {
 
 
   return (
-    <div className='about center'>
+    <div className='about center' id="about" style={{marginBottom:"150px"}}>
       {name && (
         <h1>
           Hi, I am <span className='about__name'>{name}.</span>
@@ -25,7 +25,7 @@ const About = () => {
           aria-label='github'
           className='link link--icon'
         >
-          Resume
+      <img src="https://img.icons8.com/stickers/100/000000/resume.png" height="50px"/>
         </a>
         )}
 

@@ -113,9 +113,9 @@ const  skills = [
     "type": "HTML",
     "level": 90,
     "color": {
-      "bar": "#66FCF1",
+      "bar": "#45A29E",
       "title": {
-        "background": "#45A29E"
+        "background": "#66FCF1"
       }
     }
   },
@@ -123,9 +123,9 @@ const  skills = [
     "type": "CSS",
     "level": 90,
     "color": {
-      "bar": "#66FCF1",
+      "bar": "#45A29E",
       "title": {
-        "background": "#45A29E"
+        "background": "#66FCF1"
       }
     }
   },
@@ -133,9 +133,9 @@ const  skills = [
     "type": "Javascript",
     "level": 90,
     "color": {
-      "bar": "#66FCF1",
+      "bar": "#45A29E",
       "title": {
-        "background": "#45A29E"
+        "background": "#66FCF1"
       }
     }
   },
@@ -143,9 +143,9 @@ const  skills = [
     "type": "React JS",
     "level": 90,
     "color": {
-      "bar": "#66FCF1",
+      "bar": "#45A29E",
       "title": {
-        "background": "#45A29E"
+        "background": "#66FCF1"
       }
     }
   },
@@ -153,9 +153,9 @@ const  skills = [
     "type": "Node JS",
     "level": 85,
     "color": {
-      "bar": "#66FCF1",
+      "bar": "#45A29E",
       "title": {
-        "background": "#45A29E"
+        "background": "#66FCF1"
       }
     }
   },
@@ -163,9 +163,9 @@ const  skills = [
     "type": "Mongo DB",
     "level": 75,
     "color": {
-      "bar": "#66FCF1",
+      "bar": "#45A29E",
       "title": {
-        "background": "#45A29E"
+        "background": "#66FCF1"
       }
     }
   },
@@ -173,9 +173,9 @@ const  skills = [
     "type": "GIT",
     "level": 60,
     "color": {
-      "bar": "#66FCF1",
+      "bar": "#45A29E",
       "title": {
-        "background": "#45A29E"
+        "background": "#66FCF1"
       }
     }
   }
